@@ -187,9 +187,17 @@ While the Two Towers model shows some capability in predicting user-video intera
 | Autoencoder | **0.52** | **0.09** | **0.56** | **0.40** |
 | Two-Tower   | 0.48           | 0.08           | 0.53           | 0.38           |
 
+---
+
+## Observation
+
+All the scores where obtained using the `small_matrix`, it can explain the low values. Thus, training the model on the `big_matrix` may improve model performances.
+
+Athough due to computational limitation, I was not able to load the `big_matrix` on my machine and train the model. It was making my computer crash :/
 
 ---
-📌 Conclusion
+
+## 📌 Conclusion
 
 This project journey has showcased the power and complexity of modern recommender systems, even if the top-10 metrics—while respectable—are not sky-high. More importantly, the hands-on experience has deepened my understanding of ALS, deep autoencoders, and two‑tower architectures beyond what theoretical study alone could offer.
 
